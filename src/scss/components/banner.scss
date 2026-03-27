@@ -1,0 +1,146 @@
+.cookie-banner-section {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#faf5ff, #fdf2f8) padding-box,
+    linear-gradient(90deg, #9810fa 0%, #e60076 100%) border-box;
+  border-radius: 30px 30px 0 0;
+  padding: 5px 16px 30px 16px;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+
+  @include media(desktop) {
+    padding: 13px 60px 27px 19px;
+    max-width: 1440px;
+  }
+}
+
+.cookie-banner-wrapper {
+  @include media(desktop) {
+    display: flex;
+  }
+}
+
+.banner-img {
+  @include media(desktop) {
+  }
+}
+
+.cookie-banner-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: start;
+    gap: 32px;
+    margin-bottom: 0;
+  }
+}
+
+.banner-img {
+  min-width: 62px;
+
+  @include media(desktop) {
+    min-width: 98px;
+  }
+}
+
+.cookie-banner-text {
+  font-family: 'Consolas', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include media(desktop) {
+    font-size: 34px;
+    max-width: 796px;
+    margin-top: 95px;
+  }
+}
+
+.cookie-banner-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  @include media(desktop) {
+    gap: 50px;
+    margin-left: auto;
+  }
+}
+
+.cookie-accept-btn {
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  border-radius: 30px;
+  padding: 8px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Consolas', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  width: 100%;
+  max-width: 267px;
+
+  @include media(desktop) {
+    padding: 6px 22px;
+    font-size: 28px;
+    max-width: 352px;
+  }
+}
+
+.cookie-decline-btn {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#faf5ff, #fdf2f8) padding-box,
+    linear-gradient(90deg, #9810fa 0%, #e60076 100%) border-box;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 20px;
+  width: 100%;
+  max-width: 267px;
+
+  @include media(desktop) {
+    padding: 4px 20px;
+    max-width: 352px;
+  }
+}
+
+.banner-btn-span {
+  font-family: 'Consolas', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include media(desktop) {
+    font-size: 28px;
+  }
+}
+
+.show-cookie-banner {
+  display: block;
+}

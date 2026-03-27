@@ -1,0 +1,134 @@
+.puzzles-section {
+}
+
+.puzzles-bg-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+  }
+}
+
+.puzzles-container {
+  @include media(desktop) {
+  }
+}
+
+.puzzles-title {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.puzzles-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.83333;
+  text-align: center;
+  color: #364153;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+  }
+}
+
+.puzzles-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.puzzles-list-item {
+  box-shadow:
+    0 8px 10px -6px rgba(173, 70, 255, 0.2),
+    0 20px 25px -5px rgba(173, 70, 255, 0.2);
+  background: #fff;
+  border: 2px solid #f3e8ff;
+  border-radius: 16px;
+  padding: 8px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 146px;
+  min-height: 146px;
+
+  @include media(desktop) {
+    padding: 24px 14px 20px;
+    max-width: 207px;
+    min-height: 151px;
+  }
+}
+
+.puzzles-item-img-wrapper {
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  border-radius: 6px;
+  min-width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzles-icon {
+  min-width: 32px;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzles-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.66667;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.11111;
+  }
+}
+
+.puzzles-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57143;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}

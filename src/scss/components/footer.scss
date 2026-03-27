@@ -1,0 +1,105 @@
+.footer {
+  background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 50%, #fff 100%);
+
+  @include media(desktop) {
+  }
+}
+
+.footer-bg-wrapper {
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  @include media(desktop) {
+    padding-top: 32px;
+    padding-bottom: 67px;
+  }
+}
+
+.footer-container {
+  @include media(desktop) {
+    padding: 0 60px;
+  }
+}
+
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media(desktop) {
+    flex-direction: row;
+  }
+}
+
+.footer-logo-text {
+  font-family: 'Consolas', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 35px;
+
+  @include media(desktop) {
+    font-size: 40px;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+}
+
+.footer-nav {
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+  }
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    gap: 30px;
+    margin-left: 178px;
+  }
+}
+
+.footer-list-item {
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.81818;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.11111;
+  }
+}
+
+.footer-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 2.22222;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,121 @@
+.features-section {
+}
+
+.features-bg-wrapper {
+  padding-top: 50px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    max-width: 1440px;
+  }
+}
+
+.features-container {
+  @include media(desktop) {
+  }
+}
+
+.features-title {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.features-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.83333;
+  text-align: center;
+  color: #364153;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    margin-bottom: 30px;
+  }
+}
+
+.features-list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 253px;
+
+  @include media(desktop) {
+    max-width: 379px;
+  }
+}
+
+.features-item-img-wrapper {
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  border-radius: 6px;
+  min-width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    min-width: 45px;
+    height: 45px;
+  }
+}
+
+.features-icon {
+  min-width: 24px;
+
+  @include media(desktop) {
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.features-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+.features-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.83333;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}

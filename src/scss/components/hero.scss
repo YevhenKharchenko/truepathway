@@ -1,0 +1,244 @@
+.hero-section {
+  @include media(desktop) {
+  }
+}
+
+.hero-top-wrapper {
+  background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 50%, #fff 100%);
+
+  @include media(desktop) {
+  }
+}
+
+.hero-bg-wrapper {
+  padding-top: 93px;
+  max-width: 375px;
+  margin: 0 auto;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 174px;
+    padding-bottom: 82px;
+    max-width: 1440px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
+    background-size: auto;
+  }
+}
+
+.hero-bottom-wrapper {
+  padding-top: 20px;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.hero-container {
+  padding: 0 20px;
+
+  @include media(desktop) {
+    padding: 0 100px;
+  }
+}
+
+.hero-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.hero-text-wrapper {
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    max-width: 729px;
+    margin-bottom: 0;
+  }
+}
+
+.hero-title {
+  font-family: 'Consolas', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.8;
+  text-align: center;
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 33px;
+
+  @include media(desktop) {
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+}
+
+.hero-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57143;
+  color: #364153;
+  margin-bottom: 15px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    line-height: 1.33333;
+    margin-bottom: 22px;
+  }
+}
+
+.hero-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.72727;
+  color: #364153;
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.hero-list {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+}
+
+.hero-list-item {
+  box-shadow:
+    0 8px 10px -6px rgba(173, 70, 255, 0.2),
+    0 20px 25px -5px rgba(173, 70, 255, 0.2);
+  background: #fff;
+  border: 2px solid #f3e8ff;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 315px;
+
+  @include media(desktop) {
+    max-width: 230px;
+  }
+}
+
+.hero-item-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.42857;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-cta-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  color: #9810fa;
+  margin-bottom: 15px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.55556;
+    margin-bottom: 20px;
+  }
+}
+
+.hero-cta-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+  border-radius: 8px;
+  padding: 2px 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+
+  @include media(desktop) {
+    padding: 10px 28px;
+    font-size: 18px;
+    line-height: 1.55556;
+  }
+}
+
+.hero-btn-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 2;
+  text-align: center;
+  color: #364153;
+
+  @include media(desktop) {
+    font-size: 14px;
+    line-height: 1.42857;
+  }
+}
+
+.hero-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+  }
+}
+
+.hero-list-mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
