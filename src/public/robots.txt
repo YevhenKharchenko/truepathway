@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://ironway.space/sitemap.xml
+Sitemap: https://truepathway.space/sitemap.xml

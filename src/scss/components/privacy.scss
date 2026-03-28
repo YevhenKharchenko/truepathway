@@ -1,5 +1,5 @@
 .policy-section {
-  background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 50%, #fff 100%);
+  background: #f9f9f9;
   padding-top: 100px;
   padding-bottom: 80px;
 
@@ -10,8 +10,8 @@
 }
 
 .policy-main-title {
-  font-family: 'Consolas', sans-serif;
-  font-weight: 700;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
   font-size: 20px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -19,7 +19,7 @@
   margin-bottom: 31px;
 
   @include media(desktop) {
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 52px;
   }
 }

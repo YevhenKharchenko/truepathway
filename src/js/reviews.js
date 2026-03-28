@@ -19,7 +19,8 @@ reviewsSwiper = new Swiper('.reviews-swiper-container', {
   speed: 500,
   breakpoints: {
     1440: {
-      slidesPerView: 4,
+      centeredSlides: false,
+      slidesPerView: 6,
       grabCursor: false,
       allowTouchMove: false,
       spaceBetween: 0,

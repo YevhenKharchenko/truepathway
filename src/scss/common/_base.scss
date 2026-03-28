@@ -51,19 +51,18 @@ html {
 }
 
 .section-title {
-  font-family: 'Consolas', sans-serif;
-  font-weight: 700;
-  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: -0.05em;
   text-align: center;
-  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 5px;
+  color: #151515;
+  margin-bottom: 30px;
 
   @include media(desktop) {
-    font-size: 50px;
-    line-height: 1.44;
-    margin-bottom: 10px;
+    font-size: 70px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
   }
 }
